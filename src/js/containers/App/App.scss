@@ -1,0 +1,22 @@
+.shell {
+    // On the web, useSafeArea falls back to 0 and env() does the work.
+    --pad-top: max(var(--inset-top), var(--sat));
+    --pad-bottom: max(var(--inset-bottom), var(--sab));
+    --pad-left: max(var(--inset-left), var(--sal));
+    --pad-right: max(var(--inset-right), var(--sar));
+    min-height: 100dvh;
+}
+
+.offline {
+    position: fixed;
+    z-index: 30;
+    top: calc(var(--pad-top) + 14px);
+    left: 50%;
+    transform: translateX(-50%);
+    padding: 2px 12px;
+    border: 1px solid currentColor;
+    border-radius: 999px;
+    background: var(--paper);
+    font-size: 15px;
+    font-style: italic;
+}
