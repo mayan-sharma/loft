@@ -2,6 +2,8 @@
 
 A paper plane, a valley, and one long day. Loft is an endless flight through a woodblock-print landscape, built with [Catalyst](https://catalyst.1mg.com). Dive for speed, let go to rise, skim the water, light the lanterns, and see how far the day takes you.
 
+**Fly it: https://loft-uen1.onrender.com**
+
 One codebase ships as a server-rendered website, an installable offline web app, and Android and iOS apps.
 
 ```bash
@@ -16,7 +18,8 @@ npm run buildApp:ios
 ## Flying
 
 - Touch and drag down to dive; let go to rise on the speed you have. Drag sideways to steer. Keyboard: arrow keys, with down or space to dive.
-- Lanterns give speed and lift. Columns of drifting petals are rising air. Flying fast and very low is a skim, which builds speed.
+- Lanterns give speed and lift. Columns of drifting petals are rising air. Red gates give a push when you fly through them. Flying fast and very low is a skim, which builds speed.
+- Twelve stamps are the goals: distances, the three countries, strings of lanterns, gates, skimming, flying after dark.
 - The flight ends when the plane touches the land or the water.
 
 ## How it is made
